@@ -23,8 +23,8 @@ function createTags(input) {
     tags.forEach(tag => {
         const tagEl = document.createElement('span')
 
-        tagsEl.classList.add('tag')
-        tagsEl.innerText = tag
+        tagEl.classList.add('tag')
+        tagEl.innerText = tag
         tagsEl.appendChild(tagEl)
     })
 }
